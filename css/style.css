@@ -3,6 +3,15 @@
 	margin: 0px;
 }
 
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+
 #header {
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ffffff 0%, #e6e5e5 100%); /* FF3.6+ */
@@ -16,8 +25,132 @@
 	height: 80px;
 }
 
+.logo {
+	float: left;
+	padding-top: 25px;
+	font-size: 24px;
+}
+
+.create {
+	float: right;
+	font-size: 24px;
+	background-color: #d45555;
+	padding-top: 25px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	border-bottom: 5px solid #993333;
+}
+
+.create a {
+	color: #FFF;
+	text-decoration: none;
+}
+
 #menu {
 	background:  url(../images/sous-menu.png) repeat-x;
 	width: 100%;
 	height: 30px;
 }
+
+.sep {
+	background: url(../images/menu-sep.png) no-repeat;
+	width: 1px;
+	height: 30px;
+}
+
+.nav-left {
+	margin-left: -40px;
+	float: left;
+}
+
+#menu ul {
+	list-style: none;
+	color: #FFF;
+	height: 30px;
+}
+
+.nav-left li {
+	position: relative;
+	top: -10px;
+	height: 30px;
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.nav-right {
+	float: right;
+}
+
+.nav-right li {
+	display: inline;
+	height: 30px;
+	position: relative;
+	top: -10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.cart {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	top: 10px;
+}
+
+#aweek {
+	width: 100%;
+	height: 300px;
+	background: url(../images/home/cover-aweek.png) no-repeat;
+	background-size: cover;
+}
+
+.cover-infos {
+	position: relative;
+	top: 50px;
+}
+
+.cover-infos p {
+	width: 400px;
+	margin-top: 3px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.cover-infos h3 {
+	width: 120px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.cover-more {
+	position: relative;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	top: -30px;
+	color: #FFF;
+	height: 30px;
+}
+
+.cover-more p {
+	margin-top: 7px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
