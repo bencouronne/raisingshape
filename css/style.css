@@ -136,6 +136,20 @@ body {
 	float: right;
 }
 
+#best-artists {
+	position: relative;
+	top: -30px;
+	width: 100%;
+	height: 500px;
+	background-color: blue;
+}
+
+#discover {
+	background: url(../images/home/bg-discover.png);
+	width: 100%;
+	height: 300px;
+}
+
 
 
 
