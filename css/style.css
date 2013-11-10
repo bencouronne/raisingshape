@@ -40,6 +40,7 @@ body {
 	height: 50px;
 	text-align: center;
 	border-bottom: 5px solid #993333;
+	cursor: pointer;
 }
 
 .create a {
