@@ -158,11 +158,25 @@ body {
 	height: 500px;
 }
 
+#best-artists-left
+{
+	width: 50%;
+	float: left;
+}
+
+#best-artists-right
+{
+	width: 50%;
+	position: absolute;
+	right: 11px;
+}
+
 .onebestartist
 {
 	width: 100%;
 	height: 200px;
 	margin:2px 0;
+	border-left: 3px solid white;
 	-webkit-filter: grayscale(1);
 	-moz-filter: grayscale(1);
 	-o-filter:grayscale(1);
@@ -179,11 +193,11 @@ body {
 	ms-filter:grayscale(0);
 	filter: grayscale(0);
 	
-	-webkit-transition: all 2.0s ease-out;
-	-moz-transition: all 2.0s ease-out;
-	-ms-transition: all 2.0s ease-out;
-	-o-transition: all 2.0s ease-out;
-	transition: all 2.0s ease-out;
+	-webkit-transition: all 1.0s ease-out;
+	-moz-transition: all 1.0s ease-out;
+	-ms-transition: all 1.0s ease-out;
+	-o-transition: all 1.0s ease-out;
+	transition: all 1.0s ease-out;
 	
 }
 
@@ -206,20 +220,12 @@ body {
 	right: 0;
 }
 
-.artist1
-{
-	background: url(../images/home/artist1.png);
-}
-
-.artist2
-{
-	background: url(../images/home/artist2.png);
-}
-
-.artist3
-{
-	background: url(../images/home/artist3.png);
-}
+.artist1{background: url(../images/home/artist1.png);}
+.artist2{background: url(../images/home/artist2.png);}
+.artist3{background: url(../images/home/artist3.png);}
+.artist4{background: url(../images/home/artist4.png);}
+.artist5{background: url(../images/home/artist5.png);}
+.artist6{background: url(../images/home/artist6.png);}
 
 	/* DISCOVER */
 	
