@@ -178,11 +178,13 @@ body {
 .red-discover {
 	background-color: #d45555;
 	float: left;
+	color: #FFFFFF;
 }
 
 .blue-discover {
 	background-color: #55a9d4;
 	float: right;
+	color: #FFFFFF;
 }
 
 
