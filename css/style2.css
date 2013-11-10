@@ -201,31 +201,21 @@ body {
 	
 }
 
-.onebestartist .cover-infos
-{
-	float: right;
-}
-
-.onebestartist .cover-infos h3
-{
-	position: absolute;
-	right: 0;
-	text-align: right;
-}
-
-.onebestartist .cover-infos p
-{
-	position: absolute;
-	top: 30px;
-	right: 0;
-}
-
 .artist1{background: url(../images/home/artist1.png);}
 .artist2{background: url(../images/home/artist2.png);}
 .artist3{background: url(../images/home/artist3.png);}
 .artist4{background: url(../images/home/artist4.png);}
 .artist5{background: url(../images/home/artist5.png);}
 .artist6{background: url(../images/home/artist6.png);}
+
+.bartists-container
+{
+	width: 350px;
+	height: 150px;
+	margin-left: 100px;
+	padding-top: 50px;
+	color: white;
+}
 
 	/* DISCOVER */
 	
