@@ -163,6 +163,47 @@ body {
 	width: 100%;
 	height: 200px;
 	margin:2px 0;
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter:grayscale(1);
+	ms-filter:grayscale(1);
+	filter: grayscale(1);
+}
+
+.onebestartist:hover
+{
+	cursor: pointer;
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter:grayscale(0);
+	ms-filter:grayscale(0);
+	filter: grayscale(0);
+	
+	-webkit-transition: all 2.0s ease-out;
+	-moz-transition: all 2.0s ease-out;
+	-ms-transition: all 2.0s ease-out;
+	-o-transition: all 2.0s ease-out;
+	transition: all 2.0s ease-out;
+	
+}
+
+.onebestartist .cover-infos
+{
+	float: right;
+}
+
+.onebestartist .cover-infos h3
+{
+	position: absolute;
+	right: 0;
+	text-align: right;
+}
+
+.onebestartist .cover-infos p
+{
+	position: absolute;
+	top: 30px;
+	right: 0;
 }
 
 .artist1
