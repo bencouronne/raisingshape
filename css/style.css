@@ -175,7 +175,15 @@ body {
 	height: 300px;
 }
 
+.red-discover {
+	background-color: #d45555;
+	float: left;
+}
 
+.blue-discover {
+	background-color: #55a9d4;
+	float: right;
+}
 
 
 
