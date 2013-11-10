@@ -178,21 +178,21 @@ body {
 	height: 200px;
 	margin:2px 0;
 	border-left: 3px solid white;
-	-webkit-filter: grayscale(1);
-	-moz-filter: grayscale(1);
-	-o-filter:grayscale(1);
-	ms-filter:grayscale(1);
-	filter: grayscale(1);
-}
-
-.onebestartist:hover
-{
-	cursor: pointer;
 	-webkit-filter: grayscale(0);
 	-moz-filter: grayscale(0);
 	-o-filter:grayscale(0);
 	ms-filter:grayscale(0);
 	filter: grayscale(0);
+}
+
+.onebestartist:hover
+{
+	cursor: pointer;
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter:grayscale(1);
+	ms-filter:grayscale(1);
+	filter: grayscale(1);
 	
 	-webkit-transition: all 1.0s ease-out;
 	-moz-transition: all 1.0s ease-out;
