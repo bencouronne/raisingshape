@@ -159,11 +159,58 @@ body {
 
 #best-artists {
 	position: relative;
-	top: -30px;
+	top: -20px;
 	width: 100%;
-	height: 500px;
-	background-color: blue;
+	height: 610px;
 }
+
+.best-artists-left {
+	float: left;
+	width: 470px;
+	margin-right: 10px;
+}
+
+.best-artists-right {
+	float: right;
+	width: 470px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+.artist {
+	width: 470px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.artist h3 {
+	color: #FFFFFF;
+	display: none;
+	background: rgba(0,0,0,0.7);
+	padding-top: 30px;
+}
+
+.artist p {
+	color: #FFFFFF;
+	display: none;
+	background: rgba(0,0,0,0.7);
+	margin-top: 10px;
+}
+
+.artist h1 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.7);
+}
+
+
+.ar01 { background: url(../images/home/artists/01.jpg); background-size: cover;}
+.ar02 { background: url(../images/home/artists/02.jpg); background-size: cover;}
+.ar03 { background: url(../images/home/artists/03.jpg); background-size: cover;}
+.ar04 { background: url(../images/home/artists/04.jpg); background-size: cover;}
+.ar05 { background: url(../images/home/artists/05.jpg); background-size: cover;}
+.ar06 { background: url(../images/home/artists/06.jpg); background-size: cover;}
 
 /************************************
 			BLOC DISCOVER
