@@ -9,11 +9,26 @@
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	background-color: #f8f0de;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 .container {
 	width: 960px;
 	margin: 0px auto;
+}
+
+.red {
+	color: #d45555;
+}
+
+.comming-soon {
+	text-align: center;
+	margin-top: 200px;
 }
 
 /************************************
@@ -44,14 +59,14 @@ body {
 
 .create {
 	float: right;
-	font-size: 24px;
+	font-size: 18px;
 	background-color: #d45555;
-	padding-top: 25px;
-	width: 200px;
-	height: 50px;
+	padding-top: 10px;
+	width: 167px;
+	height: 30px;
 	text-align: center;
 	border-bottom: 5px solid #993333;
-	cursor: pointer;
+	margin-top: 17px;
 }
 
 .create a {
@@ -301,7 +316,13 @@ body {
 }
 
 
-
+#footer {
+	color: #FFFFFF;
+	font-size: 12px;
+	background-color: #292929;
+	text-align: center;
+	padding: 10px;
+}
 
 
 
