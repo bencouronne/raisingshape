@@ -35,8 +35,11 @@ body {
 
 .logo {
 	float: left;
-	padding-top: 25px;
+	margin-top: 25px;
 	font-size: 24px;
+	background: url(../images/logo.png) no-repeat;
+	width: 250px;
+	height: 30px;
 }
 
 .create {
@@ -198,6 +201,7 @@ body {
 }
 
 .artist h1 {
+	padding: 5px 20px 5px 20px;
 	font-size: 18px;
 	font-weight: normal;
 	color: #FFFFFF;
