@@ -161,6 +161,8 @@ body {
 *************************************/
 
 #best-artists {
+	margin-top: 30px;
+	position: relative;
 	width: 100%;
 	height: 610px;
 }
@@ -185,6 +187,7 @@ body {
 }
 
 .highlight {
+	position: relative;
 	text-align: center;
 	width: 470px;
 	height: 200px;
