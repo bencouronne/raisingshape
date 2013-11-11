@@ -12,6 +12,12 @@ body {
 	margin: 0px auto;
 }
 
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
 	/* HEADER */
 
 #header {
@@ -126,14 +132,20 @@ body {
 }
 
 .cover-infos p {
-	width: 400px;
+	width: 550px;
 	margin-top: 3px;
 	background-color: rgba(255,255,255,0.6);
 }
 
 .cover-infos h3 {
-	width: 120px;
+	width: 350px;
 	background-color: rgba(255,255,255,0.6);
+}
+
+.cover-infos h3 span
+{
+	font-size: 27px;
+	vertical-align: middle;
 }
 
 .cover-more {
@@ -149,19 +161,28 @@ body {
 	margin-top: 7px;
 	float: right;
 	padding-right: 10px;
+	font-weight: bold;
 }
 
 	/* BEST ARTISTS */
 
 #best-artists {
 	position: relative;
-	width: 100%;
+	width: 98%;
 	height: 610px;
+	margin: auto;
+}
+
+#best-artists h2
+{
+	width: 100%;
+	display: block;
+	text-align: center;
 }
 
 #best-artists-left
 {
-	width: 50%;
+	width: 49%;
 	float: left;
 }
 
@@ -170,6 +191,7 @@ body {
 	width: 50%;
 	position: absolute;
 	right: 11px;
+	top: 28px;
 }
 
 .onebestartist
@@ -359,12 +381,6 @@ body {
 {
 	list-style: none;
 	line-height: 30px;
-}
-
-#footer li a
-{
-	text-decoration: none;
-	color: white;
 }
 
 #footer li a:hover
