@@ -35,11 +35,11 @@ body {
 
 .logo {
 	float: left;
-	margin-top: 25px;
+	margin-top: 15px;
 	font-size: 24px;
-	background: url(../images/logo.png) no-repeat;
+	background: url(../images/logo2.png) no-repeat;
 	width: 250px;
-	height: 30px;
+	height: 50px;
 }
 
 .create {
@@ -186,18 +186,31 @@ body {
 	margin-bottom: 10px;
 }
 
-.artist h3 {
-	color: #FFFFFF;
-	display: none;
-	background: rgba(0,0,0,0.7);
-	padding-top: 30px;
+.highlight {
+	margin-top: -30px;
+	text-align: center;
+	width: 470px;
+	height: 200px;
+	background-color: rgba(0,0,0,0.8);
 }
 
-.artist p {
-	color: #FFFFFF;
-	display: none;
-	background: rgba(0,0,0,0.7);
+.highlight img {
+	margin-top: 20px;
+}
+
+.highlight h3 {
 	margin-top: 10px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.highlight p {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-size: 12px;
 }
 
 .artist h1 {
