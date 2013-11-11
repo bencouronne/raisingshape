@@ -29,7 +29,7 @@ body {
 
 .logo {
 	float: left;
-	padding-top: 25px;
+	padding-top: 20px;
 	font-size: 24px;
 	padding-left : 20px;
 }
@@ -236,7 +236,7 @@ body {
 {
 	position: absolute;
 	left: 90px;
-	width: 350px;
+	width: 70%;
 	padding-left: 10px;
 	margin-top:50px;
 	color: white;
@@ -323,15 +323,84 @@ body {
 	position: relative;
 	bottom: 0;
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	background: #292929;
+	display: inline-block;
 }
 
+.footer-bloc
+{
+	width: 32%;
+	height: 100px;
+	display: inline-block;
+	margin-right: 10px;
+	color: white;
+}
 
+#footer-lmr
+{
+	width: 95%;
+	height: 100px;
+	margin: 55px auto;
+}
 
+#footer-l{
+	float: left;
+}
+#footer-m{
+	float:left;
+}
+#footer-r{
+	float:left;
+	text-align: right;
+}
 
+#footer li
+{
+	list-style: none;
+	line-height: 30px;
+}
 
+#footer li a
+{
+	text-decoration: none;
+	color: white;
+}
 
+#footer li a:hover
+{
+	color: #535353;
+}
 
+/*newletter*/
 
+#footer-r form {
+  position: relative;
+  margin: 20px 0;
+  padding: 15px;
+}
 
+#footer-r input {
+  padding: 0 16px;
+  width: 90%;
+  height: 35px;
+  font-size: 15px;
+  border: 1px solid;
+  border-color: #999 #aaa #aaa;
+  border-radius: 20px;
+}
+
+#footer-r .subscribe-nl {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 37px;
+  width: 70px;
+  background: #bababa;
+  border: 1px solid;
+  border-color: #cecece #cecece #cecece #e3e3e3;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  color: #292929;
+}

@@ -1,6 +1,4 @@
-$(document).ready(function(){
-
-	
+$(document).ready(function(){		
 	//hover best artist colone de gauche
 	$( "#best-artists-left .onebestartist" ).hover(function() {
     $(this).find('.bartists-container').stop().animate({
