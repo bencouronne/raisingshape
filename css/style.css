@@ -146,7 +146,6 @@ body {
 	position: relative;
 	width: 100%;
 	background-color: rgba(0,0,0,0.6);
-	top: -30px;
 	color: #FFF;
 	height: 30px;
 }
@@ -161,10 +160,10 @@ body {
 *************************************/
 
 #best-artists {
-	margin-top: 30px;
+	margin-top: 10px;
 	position: relative;
 	width: 100%;
-	height: 610px;
+	height: 635px;
 }
 
 .best-artists-left {
@@ -181,13 +180,15 @@ body {
 }
 
 .artist {
+	position: relative;
 	width: 470px;
 	height: 200px;
 	margin-bottom: 10px;
 }
 
 .highlight {
-	position: relative;
+	display: none;
+	position: absolute;
 	text-align: center;
 	width: 470px;
 	height: 200px;
