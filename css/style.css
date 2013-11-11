@@ -187,6 +187,7 @@ body {
 }
 
 .highlight {
+	display: none;
 	margin-top: -30px;
 	text-align: center;
 	width: 470px;
