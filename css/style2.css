@@ -390,6 +390,12 @@ body {
   border-radius: 20px;
 }
 
+#footer-r p
+{
+	text-align: left;
+	padding-left: 27px;
+}
+
 #footer-r .subscribe-nl {
   display: block;
   position: absolute;
