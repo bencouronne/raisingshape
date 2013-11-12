@@ -180,6 +180,12 @@ a
 	text-align: center;
 }
 
+
+#best-artists a
+{
+	display: block;
+}
+
 #best-artists-left
 {
 	width: 49%;
