@@ -3,12 +3,12 @@ $(document).ready(function(){
 	$( "#best-artists-left .onebestartist" ).hover(function() {
     $(this).find('.bartists-container').stop().animate({
 			left: "-350px"
-		},500);
+		},500).hide();
 		$(this).find('.artist-description').stop().fadeIn('slow');
   }, function() {
     $(this).find('.bartists-container').stop().animate({
 			left: "0"
-		},500);
+		},500).show();
 		$(this).find('.artist-description').stop().fadeOut('slow');
 	}
   );
@@ -16,12 +16,12 @@ $(document).ready(function(){
   $( "#best-artists-right .onebestartist" ).hover(function() {
     $(this).find('.bartists-container').stop().animate({
 			right: "-350px"
-		},500);
+		},500).hide();
 		$(this).find('.artist-description').stop().fadeIn('slow');
   }, function() {
     $(this).find('.bartists-container').stop().animate({
 			right: "0"
-		},500);
+		},500).show();
 		$(this).find('.artist-description').stop().fadeOut('slow');
 	}
   );
