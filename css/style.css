@@ -7,12 +7,8 @@
 	margin: 0px;
 }
 
-@font-face {font-family: "Quicksand Book Regular"; src: url(../font/Quicksand_Book.otf);} 
-@font-face {font-family: "Quicksand Bold Regular"; src:url(../font/Quicksand_Bold.otf);} 
-
-
 body {
-	font-family: "Quicksand Book Regular";
+	font-family: Helvetica, Arial, sans-serif;
 	background-color: #f8f0de;
 }
 
@@ -153,15 +149,13 @@ a {
 
 .cover-infos p {
 	width: 400px;
-	margin-top: 8px;
+	margin-top: 3px;
 	background-color: rgba(255,255,255,0.6);
 }
 
 .cover-infos h3 {
 	width: 120px;
 	background-color: rgba(255,255,255,0.6);
-	font-family:"Quicksand Bold Regular";
-	letter-spacing: -1px;
 }
 
 .cover-more {
@@ -305,7 +299,7 @@ a {
 
 .product-home p {
 	padding-top: 20px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .pos-product-home {
