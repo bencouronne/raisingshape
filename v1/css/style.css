@@ -429,8 +429,27 @@ a {
 	height: 8px;
 }
 
+#work {
+	margin-top: 20px;
+}
 
+.product {
+	float: left;
+	width: 460px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
 
+.product-name h2 {
+	margin-top: 10px;
+	color: #d45555;
+	font-size: 18px;
+}
 
+.product-description p {
+	margin-top: 5px;
+	font-size: 12px;
+}
 
 
