@@ -354,3 +354,83 @@ a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 
 }
+
+#infos {
+	position: relative;
+	width: 100%;
+	background-color: #292929;
+	height: 90px;
+}
+
+#profil-pic {
+	float: left;
+	position: absolute;
+	top: -50px;
+	background: url(../images/gallery/loiczimmermann/profilpic.png);
+	width: 100px;
+	height: 100px;
+}
+
+#name {
+	position: relative;
+}
+
+#name h1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	position: absolute;
+	top: -35px;
+	left: 120px;
+}
+
+#bio {
+	position: relative;
+}
+
+#bio p {
+	position: absolute;	
+	color: #FFFFFF;
+	left: 120px;
+	top: 20px;
+	font-size: 12px;
+}
+
+#social {
+	top: 50px;
+	position: absolute;
+}
+
+#social ul {
+	list-style: none;
+	margin-left: -29px;
+	margin-top: 10px;
+}
+
+#social li {
+	margin: 0px 5px 0px 5px;
+	display: inline-block;
+}
+
+.twitter {
+	background: url(../images/gallery/social/twitter.png);
+	width: 16px;
+	height: 14px;
+}
+
+.facebook {
+	background: url(../images/gallery/social/facebook.png);
+	width: 8px;
+	height: 16px;
+}
+
+.website {
+	background: url(../images/gallery/social/website.png);
+	width: 17px;
+	height: 8px;
+}
+
+
+
+
+
+
