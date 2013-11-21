@@ -17,6 +17,13 @@ a {
 	text-decoration: none;
 }
 
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
+}
+
 .container {
 	width: 960px;
 	margin: 0px auto;
@@ -29,6 +36,18 @@ a {
 .comming-soon {
 	text-align: center;
 	margin-top: 200px;
+}
+
+.clear {
+	clear: both;
+}
+
+.title {
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 /************************************
@@ -320,18 +339,13 @@ a {
 }
 
 
-#footer {
-	color: #FFFFFF;
-	font-size: 12px;
-	background-color: #292929;
-	text-align: center;
-	padding: 10px;
-}
-
-
 /************************************
 		GALLERY TEMPLATE 1
 *************************************/
+
+.picture-add {
+
+}
 
 #cover {
 	position: relative;
@@ -430,7 +444,8 @@ a {
 }
 
 #work {
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .product {
@@ -452,4 +467,133 @@ a {
 	font-size: 12px;
 }
 
+.blue-more {
+	background-color: #55a9d4;
+	border-bottom: 5px solid #4284a5;
+	float: right;
+	color: #FFFFFF;
+	padding: 5px 20px 5px 20px;
+	margin-top: 10px;
+}
 
+/************************************
+		GALLERY TEMPLATE 2
+*************************************/
+
+#infos-tp2 {
+	position: absolute;
+	width: 350px;
+	background-color: rgba(0,0,0,0.7);
+	height: 300px;
+}
+
+#profil-pic-tp2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background: url(../images/gallery/loiczimmermann/profilpic.png);
+	width: 100px;
+	height: 100px;
+}
+
+#name-tp2 {
+}
+
+#name-tp2 h1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#bio-tp2 p {
+	margin: 20px 10px 0px 10px;
+	color: #FFFFFF;
+	top: 20px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+#social-tp2 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#social-tp2 ul {
+	list-style: none;
+}
+
+#social-tp2 li {
+	margin: 0px 5px 0px 5px;
+	display: inline-block;
+}
+
+/** SELECT TEMPLATE **/
+
+#select-template
+{
+	padding-bottom: 30px;
+	height: 490px;
+}
+
+#select-template h3
+{
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.template
+{
+	display: inline-block;
+	width: 450px;
+	height: 370px;
+	margin: 0 12px;	
+	border: #000 2px solid;
+	border-bottom: 4px solid black;
+	background: white;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .2s ease; 
+    -moz-transition: all .2s ease; 
+}
+
+.template:hover
+{
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: none;
+}
+
+.template-1{background: url(../images/templates/template1.png);}
+.template-2{background: url(../images/templates/template2.png);}
+
+#select-validate
+{
+	display: block;
+	float: right;
+	border-bottom: 4px solid #4284a5;
+	background: #55a9d4;
+	width: 130px;
+	padding: 10px;
+	margin: 10px;
+}
+
+/** FOOTER **/
+
+#footer {
+	color: #FFFFFF;
+	font-size: 12px;
+	background-color: #292929;
+	text-align: center;
+	padding: 10px;
+	bottom: 0px;
+}
+
+.push {
+	height: 60px;
+}
