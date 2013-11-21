@@ -5,7 +5,7 @@
 * {
 	top: 0px;
 	margin: 0px;
-} 
+}
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
@@ -29,6 +29,18 @@ a {
 .comming-soon {
 	text-align: center;
 	margin-top: 200px;
+}
+
+.clear {
+	clear: both;
+}
+
+.title {
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 /************************************
@@ -157,11 +169,7 @@ a {
 .cover-infos h3 {
 	width: 120px;
 	background-color: rgba(255,255,255,0.6);
-<<<<<<< HEAD
-	letter-spacing: -1px;
-=======
 	padding:5px;
->>>>>>> eee1a2285a2b1836d11be9a3ddce29feecf6a9df
 }
 
 .cover-more {
@@ -216,11 +224,7 @@ a {
 	text-align: center;
 	width: 470px;
 	height: 200px;
-<<<<<<< HEAD
-	background-color: rgba(52,157,212,0.8);
-=======
 	background-color: rgba(85,169,212,0.8);
->>>>>>> eee1a2285a2b1836d11be9a3ddce29feecf6a9df
 }
 
 .highlight img {
@@ -341,6 +345,10 @@ a {
 		GALLERY TEMPLATE 1
 *************************************/
 
+.picture-add {
+
+}
+
 #cover {
 	position: relative;
 	width: 100%;
@@ -438,7 +446,8 @@ a {
 }
 
 #work {
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .product {
@@ -460,4 +469,63 @@ a {
 	font-size: 12px;
 }
 
+.blue-more {
+	background-color: #55a9d4;
+	border-bottom: 5px solid #4284a5;
+	float: right;
+	color: #FFFFFF;
+	padding: 5px 20px 5px 20px;
+	margin-top: 10px;
+}
 
+/************************************
+		GALLERY TEMPLATE 2
+*************************************/
+
+#infos-tp2 {
+	position: absolute;
+	width: 350px;
+	background-color: rgba(0,0,0,0.7);
+	height: 300px;
+}
+
+#profil-pic-tp2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background: url(../images/gallery/loiczimmermann/profilpic.png);
+	width: 100px;
+	height: 100px;
+}
+
+#name-tp2 {
+}
+
+#name-tp2 h1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#bio-tp2 p {
+	margin: 20px 10px 0px 10px;
+	color: #FFFFFF;
+	top: 20px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+#social-tp2 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#social-tp2 ul {
+	list-style: none;
+}
+
+#social-tp2 li {
+	margin: 0px 5px 0px 5px;
+	display: inline-block;
+}
