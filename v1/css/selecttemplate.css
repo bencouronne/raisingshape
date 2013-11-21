@@ -17,6 +17,13 @@ a {
 	text-decoration: none;
 }
 
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
+}
+
 .container {
 	width: 960px;
 	margin: 0px auto;
@@ -193,4 +200,9 @@ a {
 	background-color: #292929;
 	text-align: center;
 	padding: 10px;
+	bottom: 0px;
+}
+
+.push {
+	height: 60px;
 }
