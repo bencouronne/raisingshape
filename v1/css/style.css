@@ -345,6 +345,10 @@ a {
 		GALLERY TEMPLATE 1
 *************************************/
 
+.picture-add {
+
+}
+
 #cover {
 	position: relative;
 	width: 100%;
@@ -511,7 +515,6 @@ a {
 	font-size: 12px;
 	text-align: justify;
 }
-
 
 #social-tp2 {
 	margin-top: 20px;
