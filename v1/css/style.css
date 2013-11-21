@@ -31,6 +31,18 @@ a {
 	margin-top: 200px;
 }
 
+.clear {
+	clear: both;
+}
+
+.title {
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 /************************************
 				HEADER
 *************************************/
@@ -430,7 +442,8 @@ a {
 }
 
 #work {
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .product {
@@ -452,4 +465,64 @@ a {
 	font-size: 12px;
 }
 
+.blue-more {
+	background-color: #55a9d4;
+	border-bottom: 5px solid #4284a5;
+	float: right;
+	color: #FFFFFF;
+	padding: 5px 20px 5px 20px;
+	margin-top: 10px;
+}
 
+/************************************
+		GALLERY TEMPLATE 2
+*************************************/
+
+#infos-tp2 {
+	position: absolute;
+	width: 350px;
+	background-color: rgba(0,0,0,0.7);
+	height: 300px;
+}
+
+#profil-pic-tp2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background: url(../images/gallery/loiczimmermann/profilpic.png);
+	width: 100px;
+	height: 100px;
+}
+
+#name-tp2 {
+}
+
+#name-tp2 h1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#bio-tp2 p {
+	margin: 20px 10px 0px 10px;
+	color: #FFFFFF;
+	top: 20px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+
+#social-tp2 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#social-tp2 ul {
+	list-style: none;
+}
+
+#social-tp2 li {
+	margin: 0px 5px 0px 5px;
+	display: inline-block;
+}
