@@ -17,6 +17,10 @@ a {
 	text-decoration: none;
 }
 
+.clear{
+	clear:both;
+}
+
 .container {
 	width: 960px;
 	margin: 0px auto;
