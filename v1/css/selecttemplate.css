@@ -149,14 +149,29 @@ a {
 .template
 {
 	display: inline-block;
-	width: 456px;
+	width: 450px;
 	height: 370px;
-	margin: 0 9px;	
+	margin: 0 12px;	
 	border: #000 2px solid;
+	background: white;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .2s ease; 
+    -moz-transition: all .2s ease; 
 }
 
-.template-1{background: url();}
-.template-2{background: url();}
+.template:hover
+{
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: none;
+}
+
+.template-1{background: url(../images/templates/template1.png);}
+.template-2{background: url(../images/templates/template2.png);}
 
 #select-validate
 {
