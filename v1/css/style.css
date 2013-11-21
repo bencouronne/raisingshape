@@ -18,8 +18,10 @@ a {
 }
 
 #wrapper {
-	position: relative;
 	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
 }
 
 .container {
@@ -337,17 +339,6 @@ a {
 }
 
 
-#footer {
-	color: #FFFFFF;
-	font-size: 12px;
-	background-color: #292929;
-	text-align: center;
-	padding: 10px;
-	position: absolute;
-	bottom: 0px;
-}
-
-
 /************************************
 		GALLERY TEMPLATE 1
 *************************************/
@@ -535,4 +526,74 @@ a {
 #social-tp2 li {
 	margin: 0px 5px 0px 5px;
 	display: inline-block;
+}
+
+/** SELECT TEMPLATE **/
+
+#select-template
+{
+	padding-bottom: 30px;
+	height: 490px;
+}
+
+#select-template h3
+{
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.template
+{
+	display: inline-block;
+	width: 450px;
+	height: 370px;
+	margin: 0 12px;	
+	border: #000 2px solid;
+	border-bottom: 4px solid black;
+	background: white;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .2s ease; 
+    -moz-transition: all .2s ease; 
+}
+
+.template:hover
+{
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: none;
+}
+
+.template-1{background: url(../images/templates/template1.png);}
+.template-2{background: url(../images/templates/template2.png);}
+
+#select-validate
+{
+	display: block;
+	float: right;
+	border-bottom: 4px solid #4284a5;
+	background: #55a9d4;
+	width: 130px;
+	padding: 10px;
+	margin: 10px;
+}
+
+/** FOOTER **/
+
+#footer {
+	color: #FFFFFF;
+	font-size: 12px;
+	background-color: #292929;
+	text-align: center;
+	padding: 10px;
+	bottom: 0px;
+}
+
+.push {
+	height: 60px;
 }
