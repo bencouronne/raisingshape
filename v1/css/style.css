@@ -565,6 +565,10 @@ a {
 .template-1{background: url(../images/templates/template1.png);}
 .template-2{background: url(../images/templates/template2.png);}
 
+/*****************************************
+	LOGIN/SIGNUP FORM
+******************************************/
+
 #select-validate
 {
 	display: block;
@@ -574,4 +578,139 @@ a {
 	width: 130px;
 	padding: 10px;
 	margin: 10px;
+}
+
+#form_container{
+	width:600px;
+	margin: 0 auto;
+	padding:20px 0;
+}
+
+#form_container>div>p , #form_container>p{
+	width:100%;
+	text-align: center;
+	margin:10px 0;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+#form_container>div{
+	margin:30px auto;
+}
+
+#connection form{
+	width: 90%;
+	padding:5%;
+	margin: 20px auto 0 auto;
+	background: #FFF;
+	box-shadow: 1px 1px 15px #999;
+	font-size: 18px;
+	color: #555;
+}
+
+#connection form .inputtext{
+	width:96%;
+	margin:8px auto 20px auto;
+	font-size: 20px;
+	padding: 10px 6px;
+	border-radius: 4px;
+	border:2px solid #EEE;
+	color: #BBB;
+}
+
+#connection form .password{
+	width:70%;
+	margin:8px auto 20px auto;
+	font-size: 20px;
+	padding: 10px 6px;
+	border-radius: 4px;
+	border:2px solid #EEE;
+	color: #555;
+}
+
+#connection form select.inputtext{
+	width:99%;
+}
+
+#connection form div.form_half{
+	width:46.5%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right:3%;
+}
+
+#connection form .inputtext:hover{
+	border:2px solid #CCC;
+}
+
+#connection form .inputtext:focus{
+	border:2px solid #CCC;
+	color: #555;
+}
+
+#connection form input.inputtext:read-write{
+	color: #555;
+}
+
+#connection form div#container_button{
+	width:100%;
+	text-align: center;
+}
+
+#connection form#connect input[type=submit]{
+	font-size: 18px;
+	border:0;
+	background-color: #d45555;
+	width: 167px;
+	height: 45px;
+	text-align: center;
+	border-bottom: 5px solid #993333;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#connection form#signup input[type=submit]{
+	font-size: 18px;
+	border:0;
+	background-color: #55a9d4;
+	width: 167px;
+	height: 45px;
+	text-align: center;
+	border-bottom: 5px solid #3a7491;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.button-blue{
+	width: 167px;
+	font-size: 18px;
+	color: #FFF;
+	height:30px;
+	padding-top:10px;
+	text-align: center;
+	background-color: #55a9d4;
+	border-bottom: 5px solid #3a7491;
+}
+
+.link-blue{
+	color:#55a9d4;
+}
+
+.link-blue:hover{
+	color:#66c5f4;
+}
+
+#connection form .checkbox{
+	margin: 5px 0 15px 0;
+}
+
+#connection form .checkbox label{
+	position: relative;
+	left:10px;
+	top:-1px;
+}
+
+#connection form span.required{
+	color: #d45555;
+	font-size: 24px
 }
