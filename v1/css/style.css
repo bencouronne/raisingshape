@@ -648,10 +648,6 @@ a {
 	color: #555;
 }
 
-#connection form input.inputtext:read-write{
-	color: #555;
-}
-
 #connection form div#container_button{
 	width:100%;
 	text-align: center;

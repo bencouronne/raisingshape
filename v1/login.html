@@ -44,8 +44,8 @@
 			<div id="connect_container">
 				<p>LOGIN</p>
 				<form action="" id="connect">
-					<p>Email :</p><input class="inputtext" type="email" placeholder="exemple@email.com">
-					<p>Password :</p><input class="inputtext" type="password" placeholder="••••••••">
+					<p>Email :</p><input class="inputtext" type="email" placeholder="exemple@email.com" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
+					<p>Password :</p><input class="inputtext" type="password" placeholder="••••••••" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					<div id="container_button"><input type="submit" value="Login"></div>
 					<div class="clear"></div>
 				</form>
@@ -56,19 +56,19 @@
 				<p>SIGN UP</p>
 				<form action="" id="signup">
 					<div class="form_half">
-						<p><span class="required">*</span>Firstname :</p><input class="inputtext" type="text" placeholder="Firstname">
+						<p><span class="required">*</span>Firstname :</p><input class="inputtext" type="text" placeholder="Firstname" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					</div>
 					<div class="form_half">
-						<p><span class="required">*</span>Lastname :</p><input class="inputtext" type="text" placeholder="Lastname" onblur="if (this.value/='') this.style='color:#555;'">
+						<p><span class="required">*</span>Lastname :</p><input class="inputtext" type="text" placeholder="Lastname" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					</div>
-					<p><span class="required">*</span>Email :</p><input class="inputtext" type="email" placeholder="exemple@email.com">
-					<p><span class="required">*</span>Confirm Email :</p><input class="inputtext" type="email" placeholder="confirmation@email.com">
-					<p><span class="required">*</span>Adress :</p><input class="inputtext" type="text" placeholder="16 John Avenue">
+					<p><span class="required">*</span>Email :</p><input class="inputtext" type="email" placeholder="exemple@email.com" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
+					<p><span class="required">*</span>Confirm Email :</p><input class="inputtext" type="email" placeholder="confirmation@email.com" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
+					<p><span class="required">*</span>Adress :</p><input class="inputtext" type="text" placeholder="16 John Avenue" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					<div class="form_half">
-						<p><span class="required">*</span>Postal Code :</p><input class="inputtext" type="text" placeholder="00000">
+						<p><span class="required">*</span>Postal Code :</p><input class="inputtext" type="text" placeholder="00000" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					</div>
 					<div class="form_half">
-						<p><span class="required">*</span>City :</p><input class="inputtext" type="text" placeholder="City">
+						<p><span class="required">*</span>City :</p><input class="inputtext" type="text" placeholder="City" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					</div>
 					<p><span class="required">*</span>Country :</p>
 					<select name="nom" class="inputtext">
@@ -78,9 +78,9 @@
 						<option>Great-Britain</option>
 						<option>Gernamy</option>
 					</select>
-					<p>Phone number :</p><input class="inputtext" type="text">
-					<p><span class="required">*</span>Password :</p><input class="inputtext password" type="password" placeholder="••••••••">
-					<p><span class="required">*</span>Confirm Password :</p><input class="inputtext password" type="password" placeholder="••••••••">
+					<p>Phone number :</p><input class="inputtext" type="text" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
+					<p><span class="required">*</span>Password :</p><input class="inputtext password" type="password" placeholder="••••••••" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
+					<p><span class="required">*</span>Confirm Password :</p><input class="inputtext password" type="password" placeholder="••••••••" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					<div class="checkbox"><input type="checkbox" name="cgu"><label for="CGU">I accept <a class="link-blue" href="#">the general conditions</a></label></div>
 					<div id="container_button"><input type="submit" value="Sign Up"></div>
 					<div class="clear"></div>
