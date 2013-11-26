@@ -9,7 +9,6 @@ $(document).ready(function() {
 	// PAGE LOGIN
 	$("#signup_container").hide();
 	$("#boutton_sign_up_click").click(function(){
-		var options = {};
 		$(this).fadeOut(500,function(){
 			$("#signup_container").slideDown(500);
 		});
