@@ -43,6 +43,62 @@ a {
 	text-transform: uppercase;
 }
 
+.error {
+	width: 100%;
+	padding-top: 10px;
+	height: 20px;
+	background: rgba(212,85,85,0.7);
+	border-top: solid 2px #fff;
+	border-bottom: solid 2px #fff;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;	
+}
+
+/************************************
+			USER INFOS
+*************************************/
+
+#user-info {
+	padding-right: 5px;
+	margin-top: 25px;
+	float: right;
+	border-right: 1px solid #292929;
+	text-align: right;
+}
+
+.user-name {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.user-account {
+	cursor: pointer;
+	font-size: 10px;
+	color: #d45555;
+}
+
+.user-account li {
+	list-style: none;
+}
+
+.user-account ul ul {
+display: none;
+}
+
+.user-account li:hover ul.account-dropdown {
+	display: block;
+}
+
+.user-picto {
+	float: right;
+	background: url(../images/user.png) no-repeat;
+	width: 13px;
+	height: 15px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
 /************************************
 				HEADER
 *************************************/
@@ -85,6 +141,7 @@ a {
 	color: #FFF;
 	text-decoration: none;
 }
+
 
 /************************************
 				MENU
