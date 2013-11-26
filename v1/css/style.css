@@ -44,6 +44,98 @@ a {
 }
 
 /************************************
+				BOUTTONS
+*************************************/
+
+.button-red-small,.button-red,.button-red-large,.button-blue-small,.button-blue,.button-blue-large{
+	text-align: center;
+	color:#FFF;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	cursor: pointer;
+}
+
+.button-red-small a,.button-red a,.button-red-large a,.button-blue-small a,.button-blue a,.button-blue-large a{
+	color:#FFF;
+}
+
+.button-blue-small,.button-blue,.button-blue-large{
+	background-color: #55a9d4;
+}
+
+.button-red-small,.button-red,.button-red-large{
+	background-color: #d45555;
+}
+
+.button-blue-small,.button-red-small{
+	width: 60px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.button-blue-small,div.button-red-small{
+	height:24px;
+	padding-top:6px;
+}
+
+input.button-blue-small,input.button-red-small{
+	height:30px;
+}
+
+.button-blue,.button-red{
+	width: 167px;
+	font-size: 18px;
+}
+
+div.button-blue,div.button-red{
+	height:30px;
+	padding-top:10px;
+}
+
+input.button-blue,input.button-red{
+	height:45px;
+}
+
+.button-blue-large,.button-red-large{
+	width: 350px;
+	font-size: 24px;
+}
+
+div.button-blue-large,div.button-red-large{
+	height:50px;
+	padding-top:24px;
+}
+
+input.button-blue-large,input.button-red-large{
+	height:80px;
+}
+
+.button-red-small{
+	border-bottom:3px solid #993333;
+}
+
+.button-blue-small{
+	border-bottom:3px solid #3a7491;
+}
+
+.button-red{
+	border-bottom:5px solid #993333;
+}
+
+.button-blue{
+	border-bottom:5px solid #3a7491;
+}
+
+.button-red-large{
+	border-bottom:6px solid #993333;
+}
+
+.button-blue-large{
+	border-bottom:6px solid #3a7491;
+}
+
+/************************************
 				HEADER
 *************************************/
 
@@ -674,18 +766,6 @@ a {
 	text-align: center;
 	border-bottom: 5px solid #3a7491;
 	color: #FFF;
-	cursor: pointer;
-}
-
-.button-blue{
-	width: 167px;
-	font-size: 18px;
-	color: #FFF;
-	height:30px;
-	padding-top:10px;
-	text-align: center;
-	background-color: #55a9d4;
-	border-bottom: 5px solid #3a7491;
 	cursor: pointer;
 }
 
