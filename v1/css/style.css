@@ -686,6 +686,7 @@ a {
 	text-align: center;
 	background-color: #55a9d4;
 	border-bottom: 5px solid #3a7491;
+	cursor: pointer;
 }
 
 .link-blue{

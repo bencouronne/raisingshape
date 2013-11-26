@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/login.css">
 <script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
 <script src="js/script.js"></script>
 <link rel="icon" type="image/png" href="images/favicon.png"/>
 
@@ -51,7 +52,7 @@
 				</form>
 			</div>
 			<p>or</p>
-			<div class="button-blue">Sign Up</div>
+			<div class="button-blue" id="boutton_sign_up_click">Sign Up</div>
 			<div id="signup_container">
 				<p>SIGN UP</p>
 				<form action="" id="signup">
@@ -71,12 +72,12 @@
 						<p><span class="required">*</span>City :</p><input class="inputtext" type="text" placeholder="City" onfocus="this.style.color='#555'" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					</div>
 					<p><span class="required">*</span>Country :</p>
-					<select name="nom" class="inputtext">
-						<option selected="selected">Select one country</option>
-						<option>USA</option>
-						<option>France</option>
-						<option>Great-Britain</option>
-						<option>Gernamy</option>
+					<select name="nom" class="inputtext" onfocus="this.style.color='#555'" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
+						<option selected="selected" value="">Select one country</option>
+						<option value="USA">USA</option>
+						<option value="France">France</option>
+						<option value="Great-Britain">Great-Britain</option>
+						<option value="Gernamy">Gernamy</option>
 					</select>
 					<p>Phone number :</p><input class="inputtext" type="text" onfocus="this.style.color='#555'" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
 					<p><span class="required">*</span>Password :</p><input class="inputtext password" type="password" placeholder="••••••••" onfocus="this.style.color='#555'" onblur="if (this.value==''){this.style.color='#BBB';}else{this.style.color='#555';}">
