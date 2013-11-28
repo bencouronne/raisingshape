@@ -29,28 +29,19 @@ $(document).ready(function() {
 			$(this).css("color","#555");
 		}
 	});
-	$("select").focus(function(){
-		$(this).css("color","#555");
-		if($(this).val()==""){
-		}
-		else{
-			$(this).css("color","#555");
-		}
-	});
-	$("select").blur(function(){
-		if($(this).val()==""){
-			$(this).css("color","#BBB");
-		}
-		else{
-			$(this).css("color","#555");
-		}
-	});
 	if($(".inputtext").val()==""){
 	}
 	else{
 		$(".inputtext").css("color","#555");
 	}
 	$(".email-login").keypress(function(){
+		setTimeout(function(){
+			var email = $(".email-login").val();
+			$(".email-signup").val(email);
+			$(".email-signup").css("color","#555");
+		}, 10);
+	});
+	$(".email-login").change(function(){
 		setTimeout(function(){
 			var email = $(".email-login").val();
 			$(".email-signup").val(email);

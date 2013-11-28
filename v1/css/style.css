@@ -124,6 +124,22 @@ display: none;
 	background-color: #d45555;
 }
 
+.button-blue-small:hover,.button-blue:hover,.button-blue-large:hover{
+	background-color: #5fbeed;
+}
+
+.button-red-small:hover,.button-red:hover,.button-red-large:hover{
+	background-color: #ed5f5f;
+}
+
+.button-blue-small:active,.button-blue:active,.button-blue-large:active{
+	background-color: #4a95ba;
+}
+
+.button-red-small:active,.button-red:active,.button-red-large:active{
+	background-color: #ba4a4a;
+}
+
 .button-blue-small,.button-red-small{
 	width: 60px;
 	font-size: 14px;
@@ -722,7 +738,7 @@ input.button-blue-large,input.button-red-large{
 	margin: 10px;
 }
 
-#form_container{
+#connection #form_container{
 	width:600px;
 	margin: 0 auto;
 	padding:20px 0;
@@ -740,7 +756,7 @@ input.button-blue-large,input.button-red-large{
 	margin:30px auto;
 }
 
-#connection form{
+form{
 	width: 90%;
 	padding:5%;
 	margin: 20px auto 0 auto;
@@ -750,7 +766,7 @@ input.button-blue-large,input.button-red-large{
 	color: #555;
 }
 
-#connection form .inputtext{
+form .inputtext{
 	width:96%;
 	margin:8px auto 20px auto;
 	font-size: 20px;
@@ -760,7 +776,7 @@ input.button-blue-large,input.button-red-large{
 	color: #BBB;
 }
 
-#connection form .password{
+form .password{
 	width:70%;
 	margin:8px auto 20px auto;
 	font-size: 20px;
@@ -770,53 +786,29 @@ input.button-blue-large,input.button-red-large{
 	color: #555;
 }
 
-#connection form select.inputtext{
+form select.inputtext{
 	width:99%;
 }
 
-#connection form div.form_half{
+form div.form_half{
 	width:46.5%;
 	display: inline-block;
 	vertical-align: top;
 	margin-right:3%;
 }
 
-#connection form .inputtext:hover{
+form .inputtext:hover{
 	border:2px solid #CCC;
 }
 
-#connection form .inputtext:focus{
+form .inputtext:focus{
 	border:2px solid #CCC;
 	color: #555;
 }
 
-#connection form div#container_button{
+form div#container_button{
 	width:100%;
 	text-align: center;
-}
-
-#connection form#connect input[type=submit]{
-	font-size: 18px;
-	border:0;
-	background-color: #d45555;
-	width: 167px;
-	height: 45px;
-	text-align: center;
-	border-bottom: 5px solid #993333;
-	color: #FFF;
-	cursor: pointer;
-}
-
-#connection form#signup input[type=submit]{
-	font-size: 18px;
-	border:0;
-	background-color: #55a9d4;
-	width: 167px;
-	height: 45px;
-	text-align: center;
-	border-bottom: 5px solid #3a7491;
-	color: #FFF;
-	cursor: pointer;
 }
 
 .link-blue{
@@ -827,17 +819,27 @@ input.button-blue-large,input.button-red-large{
 	color:#66c5f4;
 }
 
-#connection form .checkbox{
+form .checkbox{
 	margin: 5px 0 15px 0;
 }
 
-#connection form .checkbox label{
+form .checkbox label{
 	position: relative;
 	left:10px;
 	top:-1px;
 }
 
-#connection form span.required{
+form span.required{
 	color: #d45555;
 	font-size: 24px
+}
+
+#contact #form_container{
+	width:66%;
+}
+
+textarea.inputtext{
+	font-family: Helvetica, Arial, sans-serif;
+	resize:vertical;
+	min-height: 200px;
 }
