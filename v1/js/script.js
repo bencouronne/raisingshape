@@ -45,9 +45,16 @@ $(document).ready(function() {
 			$(this).css("color","#555");
 		}
 	});
+	if($(".inputtext").val()==""){
+	}
+	else{
+		$(".inputtext").css("color","#555");
+	}
 	$(".email-login").keypress(function(){
-		var email = $(this).val();
-		$(".email-signup").val(email);
-		$(".email-signup").css("color","#555");
+		setTimeout(function(){
+			var email = $(".email-login").val();
+			$(".email-signup").val(email);
+			$(".email-signup").css("color","#555");
+		}, 10);
 	});
 });
